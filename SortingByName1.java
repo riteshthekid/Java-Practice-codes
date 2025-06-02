@@ -16,33 +16,40 @@ class Student {
     }
 }
 
-class SortByName implements Comparator<Student> {
+class SortByAgeThenName implements Comparator<Student> {
     public int compare(Student a, Student b) {
+        int ageCompare = Integer.compare(a.age, b.age);
+        if (ageCompare != 0) {
+            return ageCompare;
+        }
         return a.name.compareTo(b.name);
     }
 }
 
-class SortByAge implements Comparator<Student> {
+class SortByNameLength implements Comparator<Student> {
     public int compare(Student a, Student b) {
-        return Integer.compare(a.age, b.age);
+        return Integer.compare(a.name.length(), b.name.length());
     }
 }
 
-public class SortingList {
+class SortingByName1 {
     public static void main(String[] args) {
         ArrayList<Student> students = new ArrayList<>();
         students.add(new Student("Ak", 20));
         students.add(new Student("Bc", 22));
         students.add(new Student("Chutiya", 19));
+        students.add(new Student("Bsdk", 20));
+        students.add(new Student("Babu", 22));
+        students.add(new Student("Baby", 19));
 
-        Collections.sort(students, new SortByName());
-        System.out.println("Sorted by name:");
+        Collections.sort(students, new SortByAgeThenName());
+        System.out.println("Sorted by age, then by name:");
         for (Student student : students) {
             System.out.println(student);
         }
 
-        Collections.sort(students, new SortByAge());
-        System.out.println("Sorted by age:");
+        Collections.sort(students, new SortByNameLength());
+        System.out.println("\nSorted by name length:");
         for (Student student : students) {
             System.out.println(student);
         }

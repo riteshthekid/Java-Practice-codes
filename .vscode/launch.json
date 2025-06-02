@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortingStudent",
+            "request": "launch",
+            "mainClass": "SortingStudent",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
