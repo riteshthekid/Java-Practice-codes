@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "data",
+            "request": "launch",
+            "mainClass": "data",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "Synchronization",
+            "request": "launch",
+            "mainClass": "Synchronization",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "Wait_Notify",
+            "request": "launch",
+            "mainClass": "Wait_Notify",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "SetPriority",
+            "request": "launch",
+            "mainClass": "SetPriority",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "Threading",
+            "request": "launch",
+            "mainClass": "Threading",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "ParallelDownloads",
+            "request": "launch",
+            "mainClass": "ParallelDownloads",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "ParallelFileDownload",
+            "request": "launch",
+            "mainClass": "ParallelFileDownload",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "FileDownload",
+            "request": "launch",
+            "mainClass": "FileDownload",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
+            "name": "MultiThreading",
+            "request": "launch",
+            "mainClass": "MultiThreading",
+            "projectName": "Java Practice_5bd2c049"
+        },
+        {
+            "type": "java",
             "name": "SortingStudent",
             "request": "launch",
             "mainClass": "SortingStudent",

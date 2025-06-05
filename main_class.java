@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.Scanner;
 
 class main_class {
     // static int sum(int a, int b) {

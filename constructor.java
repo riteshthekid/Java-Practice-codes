@@ -21,7 +21,7 @@ class student {
 
 class constructor{
     public static void main(String[] args) {
-        student obj = new student("AJ", 16);
+       // student obj = new student("AJ", 16);
         // student obj1 = new student("AKA", 16);
 
         // System.out.println(obj.name + " " + obj.age);
